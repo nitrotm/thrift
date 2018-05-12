@@ -56,7 +56,7 @@ public:
                  const std::string& option_string) : t_oop_generator(program) {
     (void)option_string;
 
-    // TODO: support for immutable.js
+    // TODO: support for immutable.js?
     for(std::map<std::string, std::string>::const_iterator iter = parsed_options.begin(); iter != parsed_options.end(); ++iter) {
       // if( iter->first.compare("abc") == 0) {
       // } else {
