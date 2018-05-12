@@ -104,6 +104,7 @@ THRIFT_ADD_COMPILER(lua     "Enable compiler for Lua" ON)
 THRIFT_ADD_COMPILER(gv      "Enable compiler for GraphViz" ON)
 THRIFT_ADD_COMPILER(rs      "Enable compiler for Rust" ON)
 THRIFT_ADD_COMPILER(xml     "Enable compiler for XML" ON)
+THRIFT_ADD_COMPILER(ts      "Enable compiler for TypeScript" ON)
 
 # Thrift is looking for include files in the src directory
 # we also add the current binary directory for generated files
